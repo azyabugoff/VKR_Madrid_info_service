@@ -1,0 +1,198 @@
+#body {
+    background-color: rgb(243,229,171);
+    text-align: center;
+}
+
+#main_page, #madrid_link {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 15px 25px;
+    padding: 15px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.4s ease-in-out;
+    border-radius: 10px;
+    color: #40382D;
+    box-shadow: inset 0 -5px 0 #40382D;
+}
+#main_page:hover {
+    box-shadow: inset 0 -60px 0 #40382D, 2px 2px 3px rgba(0, 0, 0, 0.3);
+    color: #DECDA5;
+}
+#madrid_link:hover {
+    box-shadow: inset 0 -60px 0 #40382D, 2px 2px 3px rgba(0, 0, 0, 0.3);
+    color: #DECDA5;
+}
+
+#service_title {
+    text-align: center;
+}
+
+#application {
+    text-align: center;
+}
+
+#chosen_country {
+    text-align: center;
+}
+
+#application_confirmed {
+    text-align: center;
+    font-weight: bolder;
+}
+
+#application_confirmed_h {
+    text-align: center;
+    font-weight: bolder;
+}
+
+#userGeneralMsg {
+    height: 30px;
+    width: 900px;
+    /*white-space: pre;*/
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background: #fff;
+    border: 3px solid #452612;
+    overflow: auto;
+}
+
+#nameOfTrademark {
+    height: 30px;
+    width: 900px;
+    /*white-space: pre;*/
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background: #fff;
+    border: 3px solid #452612;
+    overflow: auto;
+}
+
+#dateOfRegistr {
+    height: 30px;
+    width: 900px;
+    /*white-space: pre;*/
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background: #fff;
+    border: 3px solid #452612;
+    overflow: auto;
+}
+
+#dateOfRenewal {
+    height: 30px;
+    width: 900px;
+    /*white-space: pre;*/
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background: #fff;
+    border: 3px solid #452612;
+    overflow: auto;
+}
+
+#countryReg {
+    height: 30px;
+    width: 900px;
+    /*white-space: pre;*/
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background: #fff;
+    border: 3px solid #452612;
+    overflow: auto;
+}
+
+#holderDetails {
+    /*height: 90px;*/
+    width: 900px;
+    white-space: pre-wrap;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background: #fff;
+    border: 3px solid #452612;
+    overflow: auto;
+}
+
+#representativeDetails {
+    /*height: 90px;*/
+    width: 900px;
+    white-space: pre-wrap;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background: #fff;
+    border: 3px solid #452612;
+    overflow: auto;
+}
+
+#regClassesOutList {
+    /*height: 400px;*/
+    max-height: 400px;
+    width: 900px;
+    white-space: pre-wrap;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background: #fff;
+    border: 3px solid #452612;
+    overflow: auto;
+    /*word-wrap: break-word;*/
+}
+
+#eventsForCountries {
+    /*height: 270px;*/
+    max-height: 400px;
+    width: 900px;
+    white-space: pre-wrap;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background: #fff;
+    border: 3px solid #452612;
+    overflow: auto;
+}
+
+#appStatusInCountry {
+    height: 30px;
+    width: 900px;
+    /*white-space: pre;*/
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background: #fff;
+    border: 3px solid #452612;
+    overflow: auto;
+}
+
+#outClassActions {
+    max-height: 400px;
+    width: 900px;
+    white-space: pre-wrap;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background: #fff;
+    border: 3px solid #452612;
+    overflow: auto;
+}
+
+#outClassList {
+    /*height: 400px;*/
+    max-height: 400px;
+    width: 900px;
+    white-space: pre-wrap;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background: #fff;
+    border: 3px solid #452612;
+    overflow: auto;
+}

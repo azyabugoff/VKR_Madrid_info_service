@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv=Content-Type content="text/html;charset=utf-8">
+        <title>Madrid Monitor search</title>
+        <link rel="stylesheet" href="/public/style.css">
+        <script>
+            function setMadridLink() {
+                let params = (new URL(document.location)).searchParams;
+                let appNumber = params.get("number");
+                let link = document.getElementById("madrid_a_href");
+                link.target = "_blank";
+                link.href = "https://www3.wipo.int/madrid/monitor/en/showData.jsp?ID=" + appNumber;
+                link.click();
+            }
+        </script>
+    </head>
+    <body id="body">
+        <div id="div_links">
+            <ul id="ul_links">
+                <li id="main_page">
+                    <a id="main_a_href" href="/">Главная страница</a>
+                </li>
+                <li id="madrid_link">
+                    <a id="madrid_a_href" href="javascript:setMadridLink()">Страница товарного знака в Madrid Monitor</a>
+                </li>
+            </ul>
+        </div>
+        <div id = "service_title">
+            <h1 id="service_title_h1">Поиск информации о товарном знаке в системе Madrid Monitor</h1>
+        </div>
+        <div id="chosen_country">
+            <form method="get" action="/search"  id="designation_form">
+                <p id="application_confirmed_h">Номер международной регистрации:</p>
+                <select id="application_confirmed" name="number">
+                    <option><%= number %></option>
+                </select>
+                <p>Из доступных обозначений выберите обозначение той страны, в которой хотите узнать правовой статус товарного знака</p>
+                <select id="chosen_country_select" name="chosen_desig">
+                    <% desigs.forEach(function(item) { %>
+                    <option><%= item %></option>
+                    <% }); %>
+                </select>
+                <input id = 'button2' type="submit" value="Поиск">
+            </form>
+        </div>
+    </body>
+</html>
